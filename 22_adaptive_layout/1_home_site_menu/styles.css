@@ -25,17 +25,21 @@ i {
 }
 
 .nav-list {
-  width: 100%;
   list-style: none;
   padding: 0;
 }
 
 .nav-list-item {
   background-color: #808080;
-  text-decoration: none;
-  padding: 0.5em;
+  color: white;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
 
-  margin: 5px;
+.nav-list-link {
+  display: block;
+  text-decoration: none;
+  margin: 0.5em;
 
   overflow: hidden;
   white-space: nowrap;
@@ -43,23 +47,14 @@ i {
   color: white;
 }
 
-.nav-list-link {
-  color: white;
-  text-decoration: none;
-}
-
-/* .main {
-    opacity: 0;
-} */
-
 @media screen and (min-width: 600px) {
   i {
-    opacity: 0;
+    visibility: hidden;
   }
 }
 
 @media screen and (max-width: 600px) {
   .navigation {
-    opacity: 0;
+    visibility: hidden;
   }
 }
