@@ -1,0 +1,51 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #eee;
+  padding-left: 1em;
+  padding-left: 1em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+i.fas.fa-bas {
+  font-size: 2em;
+  padding: 0;
+  border-radius: none;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.nav-list {
+  width: 100%;
+}
+
+.nav-list-item {
+  background-color: #808080;
+  text-decoration: none;
+  margin: 0.5em;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+.nav-list-link {
+  color: white;
+
+  text-decoration: none;
+}
