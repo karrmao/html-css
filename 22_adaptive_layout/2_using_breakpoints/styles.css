@@ -6,6 +6,7 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
 }
 
 .product-list {
@@ -13,6 +14,7 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
 }
 
 .news {
@@ -20,6 +22,7 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
 }
 
 span {
@@ -35,11 +38,13 @@ span {
   .products {
     display: flex;
     flex-grow: 2;
+    flex-basis: 0;
   }
 }
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+    flex-basis: 0;
   }
 }
