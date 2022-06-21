@@ -1,0 +1,25 @@
+.first {
+  border: 2px solid black;
+  background-color: blue;
+  padding: 50px;
+
+  margin: 50px;
+}
+
+.second {
+  border: 2px solid black;
+  background-color: yellow;
+  padding: 50px;
+}
+
+.third {
+  border: 2px solid black;
+  background-color: green;
+  padding: 50px;
+}
+
+.fourth {
+  border: 2px solid black;
+  background-color: pink;
+  padding: 50px;
+}

@@ -1,0 +1,26 @@
+/*1*/
+.already-learned ol {
+  background-color: green;
+  color: white;
+}
+/*2*/
+.to-be-learned {
+  background-color: orange;
+  color: green;
+}
+/*3*/
+.already-learned li code {
+  background-color: orange;
+}
+/*4*/
+.to-be-learned li code {
+  background-color: green;
+}
+/*5*/
+#special1 + li h4 > code {
+  border: 2px solid blue;
+}
+/*6*/
+#special2 ~ li {
+  font-size: 24px;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  display: flex;
+
+  /* display: flex;
+  flex-wrap: wrap; */
+  height: 100%;
+  cursor: all-scroll;
+  overflow-x: auto;
+}
+
+.thumb {
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  /* display: inline-block; */
+  /* flex-grow: 1; */
+  margin: 8px;
+  /* overflow: auto; */
+  /*
+	display: block;
+	width: 100%;
+*/
+}

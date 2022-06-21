@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+}
+.image-container img {
+  margin: 0 auto;
+}
+
+.image-button {
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+
+  /* text-align: center; */
+  line-height: 49px;
+  position: absolute;
+  top: calc(50% - 27px);
+  left: calc(50% - 100px);
+}
+
+.image-button {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  filter: opacity(50%);
+}
+
+.image-button:hover {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  filter: opacity(100%);
+  cursor: pointer;
+}
