@@ -12,16 +12,11 @@ html {
   align-items: center;
 }
 
-i.fas.fa-bas {
+i {
   font-size: 2em;
   padding: 0;
   border-radius: none;
   cursor: pointer;
-}
-
-.nav-list {
-  list-style: none;
-  padding: 0;
 }
 
 .navigation {
@@ -31,12 +26,16 @@ i.fas.fa-bas {
 
 .nav-list {
   width: 100%;
+  list-style: none;
+  padding: 0;
 }
 
 .nav-list-item {
   background-color: #808080;
   text-decoration: none;
-  margin: 0.5em;
+  padding: 0.5em;
+
+  margin: 5px;
 
   overflow: hidden;
   white-space: nowrap;
@@ -46,6 +45,21 @@ i.fas.fa-bas {
 
 .nav-list-link {
   color: white;
-
   text-decoration: none;
+}
+
+/* .main {
+    opacity: 0;
+} */
+
+@media screen and (min-width: 600px) {
+  i {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    opacity: 0;
+  }
 }
