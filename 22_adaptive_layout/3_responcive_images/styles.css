@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
 }
-main {
+picture {
   display: flex;
 }
-picture {
+img {
   max-width: 100%;
   margin: auto;
 }
