@@ -1,3 +1,4 @@
+
 .navigation {
   display: flex;
   background-color: #ff7f50;
@@ -24,6 +25,7 @@ span {
   border-radius: 4px;
   text-transform: lowercase;
 }
+
 
 @media (min-width: 600px) {
   .products {
