@@ -4,23 +4,40 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
+
+  @include for-medium-up {
+    flex-direction: row;
+  }
+
+  @include for-medium-up {
+    flex-direction: row;
+  }
+  @include for-large-up {
+    flex-direction: column;
+  }
 }
 .squer {
   width: 100px;
   height: 100px;
-  background-color: coral;
+  background-color: #ff7f50;
   margin: 16px;
+  flex-direction: row;
 
   @include for-medium-up {
-    background-color: aqua;
+    background-color: #ff7f50;
   }
 
   @include for-large-up {
     background-color: gold;
+  }
+
+  @include for-large-up {
+    background-color: #ff7f50;
   }
 }

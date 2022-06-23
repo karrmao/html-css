@@ -2,27 +2,49 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .squer {
   width: 100px;
   height: 100px;
-  background-color: coral;
+  background-color: #ff7f50;
   margin: 16px;
+  flex-direction: row;
 }
 @media screen and (min-width: 600px) {
   .squer {
-    background-color: aqua;
+    background-color: #ff7f50;
   }
 }
 @media screen and (min-width: 1200px) {
   .squer {
     background-color: gold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .squer {
+    background-color: #ff7f50;
   }
 }
 
