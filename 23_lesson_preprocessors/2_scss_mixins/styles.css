@@ -6,10 +6,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
 }
-@media screen and (min-width: 600px) {
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (orientation: landscape) {
   .container {
     flex-direction: row;
   }
