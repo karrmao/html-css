@@ -14,37 +14,27 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width: 600px) {
-  .container {
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    flex-direction: column;
-  }
-}
 
 .squer {
   width: 100px;
   height: 100px;
-  background-color: #ff7f50;
-  margin: 16px;
+  background-color: #ff7f50; /*min 0!*/
+  margin: 8px;
   flex-direction: row;
 }
 @media screen and (min-width: 600px) {
   .squer {
-    background-color: #ff7f50;
+    background-color: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .squer {
+    background-color: #a61;
   }
 }
 @media screen and (min-width: 1200px) {
   .squer {
-    background-color: gold;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .squer {
-    background-color: #ff7f50;
+    background-color: #c47;
   }
 }
 
