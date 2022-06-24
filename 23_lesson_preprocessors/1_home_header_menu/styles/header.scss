@@ -1,0 +1,44 @@
+@import 'variables.scss';
+
+.header {
+  height: $unit-em;
+  background-color: $color-primary;
+  text-transform: uppercase;
+  display: flex;
+  color: $color-fifth;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding-left: 3em;
+
+  &__item {
+  }
+}
+
+.menu__item {
+  :hover {
+    background-color: $color-secondary;
+  }
+}
+
+.menu__item-text {
+  padding: 8px;
+  padding: 8px;
+}
+.submenu {
+  //   background-color: $color-fourth;
+  //   position: absolute;
+  //   z-index: -1;
+  //   padding: 0;
+
+  &__item {
+    // margin: $unit-px;
+    list-style: none;
+  }
+}
+
+.menu__item_active {
+  //   background-color: $color-third;
+}
