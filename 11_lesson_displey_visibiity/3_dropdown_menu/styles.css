@@ -1,24 +1,58 @@
-html {
-  font-family: Verdana, sans-serif;
+* {
+  box-sizing: border-box;
+	
 }
 
-h1 {
-  font-size: 74px;
-   text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 50%;
-  margin: auto; 
+.dropdown {/*FATHER*/
+/*  margin: 16px;*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+	
+	margin: 0;
 }
 
-div {
-  height: 200px;
-  background-color: coral;
+.menu-button {
+  padding: 16px;
+  background-color: rgba(0, 100, 0, 0.8);
+/*  display: block;*/
+	display: flex;
   color: white;
-  text-transform: capitalize;
-  text-align: center;
-  line-height: 200px;
 }
 
-/**/
+.menu-button:hover {
+  font-size: 16px;
+  background-color: rgba(0, 100, 0, 1);
+  color: white;
+	
+  cursor: pointer;
+	
+}
+
+/*drop*/
+.menu-list {
+  position: absolute;
+	
+ display: none;/* меню ivsible*/
+ margin: 0px;/*заб відступ ^*/
+ padding: 0px;/*список з ліва*/
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);/*тінь drop*/
+  min-width: 120px;
+  z-index: 1;
+  list-style: none;
+	margin: 0px
+}
+
+/*drop*/
+.menu-item {
+  padding: 16px;/*відступи дроп*/
+}
+
+.menu-item:hover {
+  background-color: #ff4ee6;
+}
+
+.dropdown:hover .menu-list {
+  display: block;!
+}
