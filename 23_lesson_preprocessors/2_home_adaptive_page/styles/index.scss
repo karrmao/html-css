@@ -1,20 +1,53 @@
-@import 'variables.scss';
-@import 'header.scss';
-@import 'main.scss';
-@import 'footer.scss';
-
-* {
-  box-sizing: border-box;
+.container {
+  @media (min-width: 900px) {
+    display: flex;
+  }
 }
 
-html {
-  font-family: Verdana, sans-serif;
-  color: #555;
-  font-size: 16px;
+.products {
+  @media (min-width: 600px) {
+    display: flex;
+  }
+
+  @media (min-width: 900px) {
+    flex: 2;
+  }
+
+  &__navigation {
+    display: flex;
+    background-color: #ff7f50;
+    min-height: 200px;
+
+    @media (min-width: 600px) {
+      flex: 1;
+    }
+  }
+
+  &__products-list {
+    display: flex;
+    background-color: #006400;
+    min-height: 200px;
+    @media (min-width: 600px) {
+      flex: 1;
+    }
+  }
 }
 
-body {
+.news {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background-color: #0ff;
+  min-height: 200px;
+
+  @media (min-width: 900px) {
+    flex: 1;
+  }
+}
+
+span {
+  margin: auto;
+  padding: 8px;
+  font-family: Verdana, sans-serif;
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
 }

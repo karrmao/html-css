@@ -1,5 +1,5 @@
 
-.navigation {
+.products__navigation {
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
@@ -32,7 +32,7 @@ span {
     display: flex;
   }
 
-  .navigation {
+  .products__navigation {
     flex: 1;
   }
 
