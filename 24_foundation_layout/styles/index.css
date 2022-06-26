@@ -1,0 +1,69 @@
+/* line 2, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.top-section {
+  background-color: #f3c6bd; }
+
+/* line 5, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.header {
+  height: 64px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 15px;
+  justify-content: space-between; }
+  /* line 16, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .header__button {
+    background-color: #3040c4;
+    color: #fff;
+    width: 160px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none; }
+
+/* line 28, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.logo {
+  display: flex;
+  position: fixed; }
+  /* line 31, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .logo__image {
+    height: 48px;
+    width: 48px; }
+  /* line 36, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .logo__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700; }
+  /* line 42, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .logo__description {
+    display: none; }
+  /* line 45, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .logo__text {
+    display: flex;
+    align-items: center; }
+
+/* line 51, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.navigation,
+.header__button {
+  display: none; }
+
+/* line 55, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.button-burger_icon {
+  font-size: 16px;
+  padding-right: 30px; }
+
+/************************/
+/******************/
+/******************/
+/* line 10, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px; }
+
+/* line 15, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
+.page {
+  max-width: 1400px;
+  margin: auto; }
+
+/*# sourceMappingURL=index.css.map */
