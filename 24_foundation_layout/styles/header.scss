@@ -8,6 +8,8 @@
   display: flex;
   background-color: #fff;
 
+  position: fixed;
+
   &__button {
     background-color: #3040c4;
     color: #fff;
@@ -28,7 +30,6 @@
   }
 
   &__text {
-    visibility: hidden;
   }
   //   &__name {
   //   }
@@ -39,7 +40,7 @@
 
 .navigation,
 .header__button {
-  visibility: hidden;
+  //   visibility: hidden;
 }
 .header_button-burger img {
   width: 18px;
@@ -48,9 +49,9 @@
 
 /************************/
 @media (min-width: 1400px) {
-  //   .header_button-burger img {
-  //     visibility: hidden;
-  //   }
+  .header_button-burger img {
+    display: contents;
+  }
 
   .top-section {
     padding-top: 39px;
@@ -113,11 +114,5 @@
       margin-left: 11px;
       background-image: url(img/arrow.png);
     }
-  }
-  .footer {
-    height: 50px;
-    width: 1140px;
-    margin: auto;
-    display: flex;
   }
 }
