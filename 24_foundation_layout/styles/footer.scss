@@ -85,12 +85,11 @@
 }
 
 .social-links {
-  &__item {
-    margin-left: auto;
-    color: red;
-  }
+  margin-left: auto;
 
-  margin-left: 20px;
+  &__item {
+    margin-left: 20px;
+  }
 }
 
 .about-company {
@@ -98,5 +97,4 @@
 }
 
 .social-links__item {
-  color: red;
 }

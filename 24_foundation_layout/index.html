@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firs page</title>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Firs page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <html>
+    <body>
+      <div class="page">
+        <div class="top-section">
+          <header class="header">
+            <div class="logo">
+              <img class="logo__image" src="img/icon.png" alt="logo" />
+              <div class="logo__text">
+                <div class="logo__name">Foundation</div>
+                <div class="logo__description">Startup landing template</div>
+              </div>
+            </div>
+            <nav class="navigation">
+              <a href="#" class="navigation__item navigation__item_selected">Home</a>
+              <a href="#" class="navigation__item">Stories</a>
+              <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
+            </nav>
+            <button class="actions-button">Get Sturted</button>
+          </header>
 
-<body>
-	<html>
+          <!--Headline-->
 
-	<div class="page">
-
-		<div class="top-section">
-			<header class="header">
-				<div class="logo">
-					<img class="logo__image" src="img/icon.png" alt="logo" />
-					<div class="logo__text">
-						<div class="logo__name">Foundation</div>
-						<div class="logo__description">Startup landing template</div>
-					</div>
-				</div>
-				<nav class="navigation">
-					<a href="#" class="navigation__item navigation__item_selected">Home</li>
-						<a href="#" class="navigation__item">Stories</li>
-							<a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></li>
-				</nav>
-				<button class="actions-button">Get Sturted</button>
-			</header>
-		
-
-		
-
-		<!--Headline-->
-
-
-		    <section class="headline">
-				<div class="headline__content">
-					<h1 class="headline__title">Build stunning websites & apps.</h1>
-					<p class="headline__description">Create live segments and target the right people for messages based on their behaviors.</p>
-					<div class="headline__actions">
-						<button class="actions-button">Get Sturted</button>
-						<button class="headline__learn-more-btn">Get Sturted</button>
-					</div>
-				</div>
-				<img class="headline__banner" src="img/ouch.png" alt="Headline Banner" />
-
-			</section>
+          <section class="headline">
+            <div class="headline__content">
+              <h1 class="headline__title">Build stunning websites & apps.</h1>
+              <p class="headline__description">
+                Create live segments and target the right people for messages based on their
+                behaviors.
+              </p>
+              <div class="headline__actions">
+                <button class="actions-button">Get Sturted</button>
+                <button class="headline__learn-more-btn">Get Sturted</button>
+              </div>
+            </div>
+            <img class="headline__banner" src="img/figure/ouch.png" alt="Headline Banner" />
+          </section>
         </div>
 
-		<!--Customers-->
+        <!--Customers-->
 
+        <section class="about">
+          <articals class="article">
+            <h4 class="article__title">What is it about?</h4>
+            <p class="article__text">
+              Building a website for a startup that looks amazing is not a rocket science anymore.
+            </p>
+          </articals>
+          <articals class="article">
+            <h4 class="article__title">Who is it for?</h4>
+            <p class="article__text">
+              Startups, small companies and teams, entrepreneurs and web developers.
+            </p>
+          </articals>
+        </section>
 
-		<!-- <section class="about">
-				<articals class="article">
-					<h4 class="article_title">What is it about?</h4>
-					<p class="article_text">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
-				</articals>
-				<articals class="article">
-					<h4 class="article_title">Who is it for?</h4>
-					<p class="article_text">Startups, small companies and teams, entrepreneurs and web developers.</p>
-				</articals>
-			</section> -->
+        <!--Customers-->
 
-
-		<!--Customers-->
-
-
-		<!-- <section class="customers">
+        <!-- <section class="customers">
 				<img class="customers__logo" src="" alt="New Yourk Times">
 				<img class="customers__logo" src="" alt="Forbes Logo">
 				<img class="customers__logo" src="" alt="Apple Logo">
@@ -84,11 +95,9 @@
 				<img class="customers__logo" src="" alt="Google Logo">
 			</section> -->
 
+        <!--Fetures-->
 
-		<!--Fetures-->
-
-
-		<!-- <section class="features">
+        <!-- <section class="features">
 				<img class="features__left-decoration" src="" alt="Half Hidden Head">
 				<div class="features_content">
 					<div class="features__column">
@@ -115,73 +124,73 @@
 			</section>
  -->
 
+        <!--Footer-->
 
-		<!--Footer-->
+        <footer class="footer">
+          <div class="footer-navigation">
+            <div class="about-company">
+              <div class="logo">
+                <img class="logo__image" src="img/logo-footer.png" alt="logo" />
+                <div class="logo__text">
+                  <div class="logo__name">Foundation</div>
+                  <div class="logo__description">Startup landing template</div>
+                </div>
+              </div>
+              <p class="footer__description">
+                Foundation is a website template for startups and small teams. It helps to build a
+                website in no time.
+              </p>
+              <div class="downloads">
+                <img class="downloads__item" src="img/apple.png" alt="Apple store Dowload" />
+                <img src="img/google_play.png" alt="Apple store Dowload" />
+              </div>
+            </div>
 
-		<footer class="footer">
+            <div class="additional-navigation">
+              <div class="additional-navigation__column nav-links">
+                <h3 class="nav-links__title">Product</h3>
+                <ul class="nav-links__list">
+                  <li class="nav-links__list-item">Acquire Users</li>
+                  <li class="nav-links__list-item">Content Marketing</li>
+                  <li class="nav-links__list-item">Website Templates</li>
+                  <li class="nav-links__list-item">Customer Management</li>
+                  <li class="nav-links__list-item">Virtual Inbox</li>
+                </ul>
+              </div>
 
+              <div class="additional-navigation__column nav-links">
+                <h3 class="nav-links__title">Company</h3>
+                <ul class="nav-links__list">
+                  <li class="nav-links__list-item">About Foundation</li>
+                  <li class="nav-links__list-item">Brand Guidelines</li>
+                  <li class="nav-links__list-item">Press Kit</li>
+                  <li class="nav-links__list-item">Support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-			<div class="footer-navigation">
-				<div class="about-company">
-					<div class="logo">
-						<img class="logo__image" src="img/logo-footer.png" alt="logo" />
-						<div class="logo__text">
-							<div class="logo__name">Foundation</div>
-							<div class="logo__description">Startup landing template</div>
-						</div>
-					</div>
-					<p class="footer__description">Foundation is a website template for startups and small teams. It
-						helps to build a website in no time.</p>
-					<div class="downloads">
-						<img class="downloads__item" src="img/apple.png" alt="Apple store Dowload">
-						<img src="img/google_play.png" alt="Apple store Dowload">
-
-					</div>
-				</div>
-
-				<div class="additional-navigation">
-					<div class="additional-navigation__column nav-links">
-						<h3 class="nav-links__title">Product</h3>
-						<ul class="nav-links__list">
-							<li class="nav-links__list-item">Acquire Users</li>
-							<li class="nav-links__list-item">Content Marketing</li>
-							<li class="nav-links__list-item">Website Templates</li>
-							<li class="nav-links__list-item">Customer Management</li>
-							<li class="nav-links__list-item">Virtual Inbox</li>
-						</ul>
-					</div>
-
-
-					<div class="additional-navigation__column nav-links">
-						<h3 class="nav-links__title">Company</h3>
-						<ul class="nav-links__list">
-							<li class="nav-links__list-item">About Foundation</li>
-							<li class="nav-links__list-item">Brand Guidelines</li>
-							<li class="nav-links__list-item">Press Kit</li>
-							<li class="nav-links__list-item">Support</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="footer__line"></div>
-			<div class="footer__links">
-				<nav class="terms">
-					<a href="#" class="terms__items">Terms</a>
-					<a href="#" class="terms__items">Privacy</a>
-					<a href="#" class="terms__items">Licence</a>
-				</nav>
-				<div class="social-links">
-					<a class="social-links__item" href="https://twitter.com" target="_blank"><img src="img/icon-twitter.png" alt="Twitter Link"></a>
-					<a class="social-links__item" href="https://www.facebook.com" target="_blank"><img src="img/icon-fb.png" alt="Facebook Link"></a>
-					<a class="social-links__item" href="https://www.linkedin.com" target="_blank"><img src="img/LinkedIn.png" alt="Linkedin Link"></a>
-				</div>
-			</div>
-
-		</footer>
-
-	</div>
-
-
-	</html>
-</body>
+          <div class="footer__line"></div>
+          <div class="footer__links">
+            <nav class="terms">
+              <a href="#" class="terms__items">Terms</a>
+              <a href="#" class="terms__items">Privacy</a>
+              <a href="#" class="terms__items">Licence</a>
+            </nav>
+            <div class="social-links">
+              <a class="social-links__item" href="https://twitter.com" target="_blank"
+                ><img src="img/icon-twitter.png" alt="Twitter Link"
+              /></a>
+              <a class="social-links__item" href="https://www.facebook.com" target="_blank"
+                ><img src="img/icon-fb.png" alt="Facebook Link"
+              /></a>
+              <a class="social-links__item" href="https://www.linkedin.com" target="_blank"
+                ><img src="img/LinkedIn.png" alt="Linkedin Link"
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </body>
+  </html>
+</html>
