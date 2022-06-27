@@ -1,13 +1,17 @@
 @import 'header.scss';
 @import 'footer.scss';
 
+@import 'headline.scss';
+@import 'common.scss';
+
 * {
   box-sizing: border-box;
 }
 
-body {
+html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
+  color: #2b292d;
 }
 
 .page {

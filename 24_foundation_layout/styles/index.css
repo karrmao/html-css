@@ -4,66 +4,209 @@
 
 /* line 5, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
 .header {
-  height: 64px;
+  width: 1140px;
+  height: 62px;
   margin: auto;
   display: flex;
-  align-items: center;
-  background-color: #fff;
-  padding-left: 15px;
-  justify-content: space-between; }
-  /* line 16, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
-  .header__button {
-    background-color: #3040c4;
-    color: #fff;
-    width: 160px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none; }
+  padding-top: 39px; }
 
-/* line 28, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+/* line 13, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+.navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px; }
+  /* line 18, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .navigation__item {
+    color: #2b292d;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 50px; }
+  /* line 25, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .navigation__arrow {
+    display: inline-block;
+    height: 5px;
+    width: 8px;
+    background-image: url(img/arrow.png);
+    margin-left: 11px; }
+  /* line 33, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .navigation__item_selected {
+    font-weight: 700; }
+  /* line 37, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  .navigation__item:last-child {
+    margin-left: 0; }
+
+/* line 42, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
 .logo {
-  display: flex;
-  position: fixed; }
-  /* line 31, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  display: flex; }
+  /* line 45, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
   .logo__image {
-    height: 48px;
-    width: 48px; }
-  /* line 36, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+    width: 60px;
+    height: 60px;
+    margin-right: 15px; }
+  /* line 50, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
   .logo__name {
     font-size: 20px;
     line-height: 25px;
     font-weight: 700; }
-  /* line 42, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+  /* line 55, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
   .logo__description {
-    display: none; }
-  /* line 45, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6; }
+  /* line 61, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
   .logo__text {
     display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+/* line 1, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.footer {
+  display: flex;
+  margin-top: auto;
+  flex-direction: column; }
+  /* line 6, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer-navigation {
+    width: 1140px;
+    margin: 0 auto;
+    height: 338px;
+    display: flex; }
+  /* line 13, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__links {
+    height: 50px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
     align-items: center; }
+  /* line 21, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0; }
+  /* line 27, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6); }
 
-/* line 51, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
-.navigation,
-.header__button {
-  display: none; }
+/* line 36, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.additional-navigation {
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex; }
+  /* line 41, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .additional-navigation__column {
+    margin-right: 29px; }
 
-/* line 55, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/header.scss */
-.button-burger_icon {
-  font-size: 16px;
-  padding-right: 30px; }
+/* line 46, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.nav-links {
+  width: 265px; }
+  /* line 49, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .nav-links__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2b292d;
+    margin: 0; }
+  /* line 57, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .nav-links__list {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    color: rgba(43, 41, 45, 0.6);
+    padding: 0;
+    margin: 0;
+    margin-top: 18px; }
 
-/************************/
-/******************/
-/******************/
-/* line 10, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
-body {
+/* line 68, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.downloads {
+  margin-top: 25px; }
+  /* line 71, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .downloads__item {
+    margin-right: 10px; }
+
+/* line 76, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.terms {
+  line-height: 50px;
+  font-size: 14px; }
+  /* line 80, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .terms__items {
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 22px; }
+
+/* line 87, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.social-links {
+  margin-left: 20px; }
+  /* line 88, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .social-links__item {
+    margin-left: auto;
+    color: red; }
+
+/* line 96, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.about-company {
+  margin-top: 44px; }
+
+/* line 100, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.social-links__item {
+  color: red; }
+
+/* line 1, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/headline.scss */
+.headline {
+  position: relative;
+  width: 1140px;
+  margin: auto;
+  margin-top: 84px; }
+  /* line 7, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/headline.scss */
+  .headline__banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 796px;
+    height: 448px; }
+  /* line 14, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/headline.scss */
+  .headline__title {
+    width: 754px;
+    height: 165px; }
+  /* line 18, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/headline.scss */
+  .headline__description {
+    margin-top: 34px;
+    height: 102px;
+    width: 456px;
+    font-size: 24px;
+    line-height: 34px; }
+
+/* line 1, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/common.scss */
+.actions-button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px; }
+
+/* line 7, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 11, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
+html {
   font-family: 'Work Sans', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #2b292d; }
 
-/* line 15, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
+/* line 17, /Users/user/Desktop/grom_study/html_css/24_foundation_layout/styles/index.scss */
 .page {
   max-width: 1400px;
-  margin: auto; }
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=index.css.map */
