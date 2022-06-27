@@ -237,6 +237,19 @@
   margin-top: 6px;
 }
 
+.customers {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 81px;
+}
+.customers__logo {
+  filter: brightness(0);
+}
+
 * {
   box-sizing: border-box;
 }
