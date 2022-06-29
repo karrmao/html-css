@@ -1,0 +1,41 @@
+/* line 3, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 7, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  @media (orientation: portrait) {
+    /* line 7, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+    .container {
+      flex-direction: column; } }
+  @media (orientation: landscape) {
+    /* line 7, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+    .container {
+      flex-direction: row; } }
+
+/* line 22, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+.squer {
+  width: 100px;
+  height: 100px;
+  background-color: #ff7f50;
+  /*min 0!*/
+  margin: 8px;
+  flex-direction: row; }
+  @media screen and (min-width: 600px) {
+    /* line 22, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+    .squer {
+      background-color: #8a2be2; } }
+  @media screen and (min-width: 900px) {
+    /* line 22, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+    .squer {
+      background-color: #a61; } }
+  @media screen and (min-width: 1200px) {
+    /* line 22, /Users/user/Desktop/grom_study/html_css/23_lesson_preprocessors/2_scss_mixins/styles/index.scss */
+    .squer {
+      background-color: #c47; } }
+
+/*# sourceMappingURL=index.css.map */

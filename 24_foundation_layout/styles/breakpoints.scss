@@ -1,11 +1,13 @@
-// $lg: 1400px;
+$lg: 1400px;
 
-// @mixin for-extra-small {
-//   @media screen and (min-width: $lg) {
-//     @content;
-//   }
-// }
+@mixin for-large-up {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
 
-//  <div class="header_button-burger">
-//           <img src="img/burger.png" alt="" class="logo__image" />
-//           </div>
+@mixin for-large-down {
+  @media screen and (max-width: $lg - 1) {
+    @content;
+  }
+}

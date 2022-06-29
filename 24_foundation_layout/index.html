@@ -19,14 +19,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <html>
@@ -46,7 +38,8 @@
               <a href="#" class="navigation__item">Stories</a>
               <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
             </nav>
-            <button class="actions-button">Get Sturted</button>
+            <button class="actions-button header__button">Get Sturted</button>
+            <button class="header__menu-button"><span class="header__menu-icon"></span></button>
           </header>
 
           <!--Headline-->
@@ -59,8 +52,8 @@
                 behaviors.
               </p>
               <div class="headline__actions">
-                <button class="actions-button">Get Sturted</button>
-                <button class="headline__learn-more-btn">Get Sturted</button>
+                <button class="actions-button headline__actions-btn">Get Sturted</button>
+                <button class="headline__learn-more-btn headline__actions-btn">Get Sturted</button>
               </div>
             </div>
             <img class="headline__banner" src="img/figure/ouch.png" alt="Headline Banner" />
@@ -70,7 +63,7 @@
         <!--About-->
 
         <section class="about">
-          <articals class="article">
+          <articals class="article x">
             <h4 class="article__title">What is it about?</h4>
             <p class="article__text">
               Building a website for a startup that looks amazing is not a rocket science anymore.
@@ -87,44 +80,126 @@
         <!--Customers-->
 
         <section class="customers">
-          <img class="customers__logo" src="img/logos/n_y.png" alt="New Yourk Times" />
-          <img class="customers__logo" src="img/logos/forbs.png" alt="Forbes Logo" />
-          <img class="customers__logo" src="img/logos/apple_l.png" alt="Apple Logo" />
-          <img class="customers__logo" src="img/logos/mashebl.png" alt="Mashable Logo" />
-          <img class="customers__logo" src="img/logos/wsj.png" alt="WSJ Logo" />
-          <img class="customers__logo" src="img/logos/google.png" alt="Google Logo" />
+          <div class="customers__row">
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/n_y.png" alt="New Yourk Times" />
+            </div>
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/forbs.png" alt="Forbes Logo" />
+            </div>
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/apple_l.png" alt="Apple Logo" />
+            </div>
+          </div>
+          <div class="customers__row">
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/mashebl.png" alt="Mashable Logo" />
+            </div>
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/wsj.png" alt="WSJ Logo" />
+            </div>
+            <div class="customers__item">
+              <img class="customers__logo" src="img/logos/google.png" alt="Google Logo" />
+            </div>
+          </div>
         </section>
 
-        <!--Fetures-->
+        <!--Fetures--Mobile-->
+
+        <section class="tips">
+          <div class="tip">
+            <span class="tip__subtitle">Acquire Customers</span>
+            <h3 class="tip__title">Easily find leads and customers</h3>
+            <p class="tip__description">
+              Send one-off and automated email, push, and in-app messages to people. Create better
+              stories.
+            </p>
+            <figure class="tip__decoration">
+              <img
+                class="tip__image"
+                src="img/features_mobile/ouch_1.png"
+                alt="Acquire Customers"
+              />
+              <figcaption class="tip__image-caption">A better way to acquire new users</figcaption>
+            </figure>
+          </div>
+
+          <div class="tip">
+            <span class="tip__subtitle">Engage Users</span>
+            <h3 class="tip__title">Engage with your audience</h3>
+            <p class="tip__description">
+              Send one-off and automated email, push, and in-app messages to people. Create better
+              stories.
+            </p>
+            <figure class="tip__decoration">
+              <img
+                class="tip__image-caption"
+                src="img/features_mobile/ouch_2.png"
+                alt="Engage Users"
+              />
+              <figcaption class="tip__image-caption">
+                Knowledge base and smart self-service
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="tip">
+            <span class="tip__subtitle">Support</span>
+            <h3 class="tip__title">The best customer experiences</h3>
+            <p class="tip__description">
+              A beautifully simple system for tracking, prioritizing, and solving customer support
+              tickets.
+            </p>
+            <figure>
+              <img class="tip__image-caption" src="img/features_mobile/ouch_3.png" alt="Support" />
+              <figcaption class="tip__image-caption">Live chat and messaging</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!--Fetures--Desctop-->
 
         <section class="features">
-				<img class="features__left-decoration" src="img/features/ouch.png" alt="Half Hidden Head">
-				<div class="features__content">
-					<div class="features__column">
-						<h4 class="features__subtitle">Features</h4>
-						<h2 class="features__title">Easily find leads and customers</h4>
+          <img
+            class="features__left-decoration"
+            src="img/features/ouch.png"
+            alt="Half Hidden Head"
+          />
+          <div class="features__content">
+            <div class="features__column">
+              <h4 class="features__subtitle">Features</h4>
+              <h2 class="features__title">Easily find leads and customers</h2>
 
-							<p class="features__description">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
-							<div class="features__advantage-header">
-								<img src="img/features/compas.png" alt="Compas">
-								<h5 class="features__advantage-title">Acquire new customers</h5>
-							</div>
+              <p class="features__description">
+                Send one-off and automated email, push, and in-app messages to people. Create better
+                stories.
+              </p>
+              <div class="features__advantage-header">
+                <img src="img/features/compas.png" alt="Compas" />
+                <h5 class="features__advantage-title">Acquire new customers</h5>
+              </div>
 
-							<p class="features__advantage-description">Everything you need to start building – including open-source code, documentation.</p>
+              <p class="features__advantage-description">
+                Everything you need to start building – including open-source code, documentation.
+              </p>
 
-							<div class="features__advantage-item">
-								<img src="img/features/building.png" alt="Icon Buildings">
-								<span class="features__advantage-item-text">Engage Users</span>
-							</div>
+              <div class="features__advantage-item">
+                <img src="img/features/building.png" alt="Icon Buildings" />
+                <span class="features__advantage-item-text">Engage Users</span>
+              </div>
 
-							<div class="features__advantage-item">
-								<img src="img/features/envelope.png" alt="Icon Buildings">
-								<span class="features__advantage-item-text">Develop across platforms</span>
-							</div>
-					</div>
-				</div>
-				<img class="features__banner" src="img/features/invision_screen.png" alt="Invision Screen">
-			</section>
+              <div class="features__advantage-item">
+                <img src="img/features/envelope.png" alt="Icon Buildings" />
+                <span class="features__advantage-item-text">Develop across platforms</span>
+              </div>
+            </div>
+          </div>
+          <img
+            class="features__banner"
+            src="img/features/invision_screen.png"
+            alt="Invision Screen"
+          />
+        </section>
 
         <!--Footer-->
 
@@ -138,6 +213,15 @@
                   <div class="logo__description">Startup landing template</div>
                 </div>
               </div>
+
+              <div class="logo-vertical">
+                <img class="logo-vertical__image" src="img/logo-footer.png" alt="logo" />
+                <div class="logo-vertical__text">
+                  <div class="logo-vertical__name">Foundation</div>
+                  <div class="logo-vertical__description">Startup landing template</div>
+                </div>
+              </div>
+
               <p class="footer__description">
                 Foundation is a website template for startups and small teams. It helps to build a
                 website in no time.
@@ -147,6 +231,8 @@
                 <img src="img/google_play.png" alt="Apple store Dowload" />
               </div>
             </div>
+
+            <div class="footer__line hide_desktop"></div>
 
             <div class="additional-navigation">
               <div class="additional-navigation__column nav-links">
@@ -172,7 +258,7 @@
             </div>
           </div>
 
-          <div class="footer__line"></div>
+          <div class="footer__line hide_mobile"></div>
           <div class="footer__links">
             <nav class="terms">
               <a href="#" class="terms__items">Terms</a>
