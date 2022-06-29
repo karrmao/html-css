@@ -21,10 +21,8 @@ html {
 .page {
   width: 100%;
   overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
+  @media screen and (min-width: $lg) {
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;

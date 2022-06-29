@@ -530,6 +530,11 @@
   display: flex;
   position: relative;
 }
+@media screen and (max-width: 1399px) {
+  .features {
+    display: none;
+  }
+}
 .features__content {
   width: 1140px;
   margin: auto;
@@ -670,8 +675,7 @@ html {
   width: 100%;
   overflow-x: hidden;
 }
-
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .page {
     max-width: 1400px;
     margin: auto;
