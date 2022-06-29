@@ -1,11 +1,22 @@
 .article:last-child {
-  margin-bottom: 10px; /*не воркає*/
+  display: block;
+  margin-top: 20px;
+
+  @media screen and (min-width: $lg) {
+    margin-top: 0px;
+  }
 }
 
 .about {
   padding: 46px 15px;
   width: 100%;
   background: #f4f5f7;
+
+  @media screen and (min-width: $lg) {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
 }
 
 .article {
@@ -14,6 +25,10 @@
     font-size: 22px;
     line-height: 32px;
     margin: 0;
+
+    @media screen and (min-width: $lg) {
+      width: 555px;
+    }
   }
 
   &__text {
@@ -21,20 +36,5 @@
     line-height: 32px;
     margin-bottom: 0;
     margin-top: 6px;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .about {
-    display: flex;
-    justify-content: space-between;
-    padding: 77px 130px 76px 130px;
-  }
-
-  .article {
-    width: 555px;
-  }
-  .article:last-child {
-    margin-top: 0;
   }
 }

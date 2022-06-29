@@ -9,13 +9,13 @@
   border-radius: 2px;
 }
 
-@media screen and (min-width: 400px) {
-  .hide_desktop {
+.hide_desktop {
+  @media screen and (min-width: $lg) {
     display: none;
   }
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: ($lg - 1)) {
   .hide_mobile {
     display: none;
   }

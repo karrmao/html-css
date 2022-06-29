@@ -4,17 +4,31 @@
   flex-direction: column;
 
   &-navigation {
-    // width: 1140px;
     margin: 0;
-    // height: 338px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (min-width: $lg) {
+      width: 1140px;
+      margin: 0 auto;
+      height: 338px;
+      display: flex;
+      flex-direction: row;
+    }
   }
 
   &__links {
     display: flex;
     margin-left: 15px;
     flex-direction: column;
+
+    @media screen and (min-width: $lg) {
+      height: 50px;
+      flex-direction: row;
+      width: 1140px;
+      margin: 0 auto;
+      align-items: center;
+    }
   }
 
   &__line {
@@ -23,7 +37,12 @@
     opacity: 0.1;
     margin: 0;
     margin-top: 40px;
+
+    @media screen and (min-width: $lg) {
+      margin: 0;
+    }
   }
+
   &__description {
     display: none;
     line-height: 26px;
@@ -31,37 +50,15 @@
     width: 360px;
     margin-top: 26px;
     color: rgba(43, 41, 45, 0.6);
-  }
-}
 
-@media screen and (min-width: 400px) {
-  .footer {
-    &___line {
-      margin: 0;
+    @media screen and (min-width: $lg) {
+      display: block;
     }
   }
-}
 
-@media screen and (min-width: 400px) {
-  .footer {
-    &-navigation {
-      width: 1140px;
-      margin: 0 auto;
-      height: 338px;
-      display: flex;
-      flex-direction: row;
-    }
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .footer {
-    &__links {
-      height: 50px;
-      flex-direction: row; /*hren!!*/
-      width: 1140px;
-      margin: 0 auto;
-      align-items: center;
+  .logo {
+    @media screen and (max-width: ($lg - 1)) {
+      display: none;
     }
   }
 }
@@ -72,18 +69,16 @@
   display: flex;
   flex-direction: column;
 
-  &__column {
-    margin-top: 30px;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .additional-navigation {
-    flex-direction: row; /*hren!!*/
+  @media screen and (min-width: $lg) {
+    flex-direction: row;
     margin-top: 60px;
     margin-left: auto;
+  }
 
-    &__column {
+  &__column {
+    margin-top: 30px;
+
+    @media screen and (min-width: $lg) {
       margin-top: 0;
       margin-right: 29px;
     }
@@ -117,16 +112,14 @@
   display: flex;
   justify-content: center;
 
-  &__item {
-    margin-right: 10px;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .downloads {
+  @media screen and (min-width: $lg) {
     margin: 0;
     margin-top: 25px;
     justify-content: start;
+  }
+
+  &__item {
+    margin-right: 10px;
   }
 }
 
@@ -135,6 +128,11 @@
   font-size: 14px;
   margin-top: 30px;
 
+  @media screen and (min-width: $lg) {
+    line-height: 50px;
+    margin-top: 0;
+  }
+
   &__items {
     text-decoration: none;
     color: rgba(43, 41, 45, 0.6);
@@ -142,29 +140,20 @@
   }
 }
 
-@media screen and (min-width: 400px) {
-  .terms {
-    line-height: 50px;
-    margin-top: 0;
-  }
-}
-
 .social-links {
-  // margin-left: 15px;
   margin-top: 30px;
   margin-bottom: 23px;
+
+  @media screen and (min-width: $lg) {
+    margin-left: auto;
+  }
 
   &__item {
     margin-left: 20px;
   }
+
   &__item:first-child {
     margin-left: 0;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .social-links {
-    margin-left: auto;
   }
 }
 
@@ -172,20 +161,20 @@
   margin-top: 44px;
 }
 
-.social-links__item {
-}
-
 .logo-vertical {
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  @media screen and (min-width: $lg) {
+    display: none;
+  }
+
   &__image {
     height: 60px;
     width: 60px;
   }
-  &__text {
-  }
+
   &__name {
     font-weight: 700;
     font-size: 20px;
@@ -193,40 +182,11 @@
     text-align: center;
     margin-top: 20px;
   }
+
   &__description {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
     color: rgba(43, 41, 45, 0.6);
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .footer {
-    &__description {
-      display: block;
-    }
-  }
-
-  .logo-vertical {
-    display: none;
-
-    &__image {
-    }
-
-    &__text {
-    }
-
-    &__name {
-    }
-
-    &__description {
-    }
-  }
-}
-
-@media screen and (max-width: 399px) {
-  .footer .logo {
-    display: none;
   }
 }
