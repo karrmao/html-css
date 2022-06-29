@@ -607,6 +607,11 @@
 .tips {
   margin-top: 8px;
 }
+@media screen and (min-width: 1400px) {
+  .tips {
+    display: none;
+  }
+}
 
 .tip {
   padding: 40px 15px 0 15px;
@@ -651,11 +656,6 @@ tip__decoration .tip__title {
   max-width: 100%;
 }
 
-@media screen and (min-width: 400px) {
-  .tips {
-    display: none;
-  }
-}
 * {
   box-sizing: border-box;
 }
