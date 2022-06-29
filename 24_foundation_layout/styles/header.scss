@@ -10,13 +10,63 @@
   display: flex;
   align-items: center;
   padding-left: 15px;
+
+  @media screen and (min-width: $lg) {
+    // .header {
+    width: 1140px;
+    height: 62px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    display: flex;
+    padding-top: 39px;
+    padding-left: 0;
+  }
+
   &__button {
     display: none;
+    @media screen and (min-width: $lg) {
+      //  &__button {
+      display: block;
+    }
+  }
+
+  &__menu-button {
+    width: 58px;
+    border: none;
+    border-left: 1px solid #00000026;
+    height: 100%;
+    margin-left: auto;
+    background: transparent;
+
+    @media screen and (min-width: $lg) {
+      //  &__menu-button {
+      display: none;
+    }
+  }
+
+  &__menu-icon {
+    width: 18px;
+    height: 13px;
+    background-image: url('img/burger.png');
+    display: inline-block;
+
+    @media screen and (min-width: $lg) {
+      // &__menu-icon {
+      display: none;
+    }
   }
 }
 
 .navigation {
   display: none;
+
+  @media screen and (min-width: $lg) {
+    // .navigation {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-right: 75px;
+  }
 
   &__item {
     color: #2b292d;
@@ -49,89 +99,37 @@
     width: 48px;
     height: 48px;
     margin-right: 15px;
+
+    @media screen and (min-width: $lg) {
+      // &__image {
+      width: 48px;
+      height: 48px;
+      margin-right: 13px;
+    }
   }
-  &__name {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 700;
-  }
-  &__description {
-    display: none;
-    //   font-size: 18px;
-    //   line-height: 25px;
-    //   color: #2b292d;
-    //   opacity: 0.6;
-  }
+
   &__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-}
 
-.header__menu-button {
-  width: 58px;
-  border: none;
-  border-left: 1px solid #00000026;
-  height: 100%;
-  margin-left: auto;
-  background: transparent;
-}
-
-.header__menu-icon {
-  width: 18px;
-  height: 13px;
-  background-image: url('img/burger.png');
-  display: inline-block;
-}
-
-@media screen and (min-width: 400px) {
-  // .top-section {
-  //   background-color: #f3c6bd;
-  //   padding-top: 39px;
-  // }
-
-  .header {
-    width: 1140px;
-    height: 62px;
-    background-color: rgba(255, 255, 255, 0);
-    margin: auto;
-    display: flex;
-    padding-top: 39px;
-    padding-left: 0;
-
-    &__button {
-      display: block;
-    }
-    &__menu-button {
-      display: none;
-    }
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
   }
 
-  .navigation {
-    display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
-  }
+  &__description {
+    display: none;
 
-  .logo {
-    &__description {
+    @media screen and (min-width: $lg) {
+      // &__description {
       display: block;
       font-size: 18px;
       line-height: 25px;
       color: #2b292d;
       opacity: 0.6;
-    }
-
-    &__image {
-      width: 48px;
-      height: 48px;
-      margin-right: 13px;
-    }
-
-    &__menu-icon {
-      display: none;
     }
   }
 }

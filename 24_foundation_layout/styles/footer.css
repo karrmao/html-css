@@ -1,0 +1,187 @@
+/* line 1, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.footer {
+  display: flex;
+  margin-top: auto;
+  flex-direction: column; }
+  /* line 6, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer-navigation {
+    margin: 0;
+    display: flex;
+    flex-direction: column; }
+  /* line 14, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__links {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column; }
+  /* line 20, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0;
+    margin-top: 40px; }
+  /* line 27, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__description {
+    display: none;
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6); }
+
+@media screen and (min-width: 400px) {
+  /* line 39, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer___line {
+    margin: 0; } }
+
+@media screen and (min-width: 400px) {
+  /* line 47, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer-navigation {
+    width: 1140px;
+    margin: 0 auto;
+    height: 338px;
+    display: flex;
+    flex-direction: row; } }
+
+@media screen and (min-width: 400px) {
+  /* line 59, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__links {
+    height: 50px;
+    flex-direction: row;
+    /*hren!!*/
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center; } }
+
+/* line 69, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.additional-navigation {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column; }
+  /* line 75, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .additional-navigation__column {
+    margin-top: 30px; }
+
+@media screen and (min-width: 400px) {
+  /* line 81, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .additional-navigation {
+    flex-direction: row;
+    /*hren!!*/
+    margin-top: 60px;
+    margin-left: auto; }
+    /* line 86, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+    .additional-navigation__column {
+      margin-top: 0;
+      margin-right: 29px; } }
+
+/* line 93, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.nav-links {
+  width: 265px; }
+  /* line 96, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .nav-links__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2b292d;
+    margin: 0; }
+  /* line 104, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .nav-links__list {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    color: rgba(43, 41, 45, 0.6);
+    padding: 0;
+    margin: 0;
+    margin-top: 18px; }
+
+/* line 115, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.downloads {
+  margin: 25px 15px 0 15px;
+  display: flex;
+  justify-content: center; }
+  /* line 120, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .downloads__item {
+    margin-right: 10px; }
+
+@media screen and (min-width: 400px) {
+  /* line 126, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .downloads {
+    margin: 0;
+    margin-top: 25px;
+    justify-content: start; } }
+
+/* line 133, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.terms {
+  line-height: 22px;
+  font-size: 14px;
+  margin-top: 30px; }
+  /* line 138, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .terms__items {
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 22px; }
+
+@media screen and (min-width: 400px) {
+  /* line 146, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .terms {
+    line-height: 50px;
+    margin-top: 0; } }
+
+/* line 152, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.social-links {
+  margin-top: 30px;
+  margin-bottom: 23px; }
+  /* line 157, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .social-links__item {
+    margin-left: 20px; }
+  /* line 160, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .social-links__item:first-child {
+    margin-left: 0; }
+
+@media screen and (min-width: 400px) {
+  /* line 166, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .social-links {
+    margin-left: auto; } }
+
+/* line 171, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.about-company {
+  margin-top: 44px; }
+
+/* line 178, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+.logo-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  /* line 183, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .logo-vertical__image {
+    height: 60px;
+    width: 60px; }
+  /* line 189, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .logo-vertical__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px; }
+  /* line 196, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .logo-vertical__description {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6); }
+
+@media screen and (min-width: 400px) {
+  /* line 206, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer__description {
+    display: block; }
+  /* line 211, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .logo-vertical {
+    display: none; } }
+
+@media screen and (max-width: 399px) {
+  /* line 229, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/footer.scss */
+  .footer .logo {
+    display: none; } }
+
+/*# sourceMappingURL=footer.css.map */
