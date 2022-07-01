@@ -45,7 +45,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/burger.png");
+  background-image: url("burger.png");
   display: inline-block;
 }
 @media screen and (min-width: 1400px) {
@@ -76,7 +76,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url(img/arrow.png);
+  background-image: url(arrow.png);
   margin-left: 11px;
 }
 .navigation__item_selected {
