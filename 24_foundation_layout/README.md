@@ -8,4 +8,5 @@ Flexbox
 Sass (Scss)
 BEM methodology
 Mobile first
+
 Author: Igor Okarma
