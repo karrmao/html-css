@@ -12,7 +12,6 @@
   padding-left: 15px;
 
   @media screen and (min-width: $lg) {
-    // .header {
     width: 1140px;
     height: 62px;
     background-color: rgba(255, 255, 255, 0);
@@ -25,7 +24,6 @@
   &__button {
     display: none;
     @media screen and (min-width: $lg) {
-      //  &__button {
       display: block;
     }
   }
@@ -39,7 +37,6 @@
     background: transparent;
 
     @media screen and (min-width: $lg) {
-      //  &__menu-button {
       display: none;
     }
   }
@@ -47,11 +44,10 @@
   &__menu-icon {
     width: 18px;
     height: 13px;
-    background-image: url('burger.png');
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     display: inline-block;
 
     @media screen and (min-width: $lg) {
-      // &__menu-icon {
       display: none;
     }
   }
@@ -61,7 +57,6 @@
   display: none;
 
   @media screen and (min-width: $lg) {
-    // .navigation {
     display: block;
     margin-left: auto;
     margin-top: 7px;
@@ -79,7 +74,7 @@
     display: inline-block;
     height: 5px;
     width: 8px;
-    background-image: url(arrow.png);
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
     margin-left: 11px;
   }
 
@@ -101,7 +96,6 @@
     margin-right: 15px;
 
     @media screen and (min-width: $lg) {
-      // &__image {
       width: 48px;
       height: 48px;
       margin-right: 13px;
@@ -124,7 +118,6 @@
     display: none;
 
     @media screen and (min-width: $lg) {
-      // &__description {
       display: block;
       font-size: 18px;
       line-height: 25px;
