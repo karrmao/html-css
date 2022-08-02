@@ -1,7 +1,7 @@
 .tips {
   margin-top: 8px;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     display: none;
   }
 }
@@ -9,15 +9,13 @@
 .tip {
   padding: 40px 15px 0 15px;
   border-bottom: 1px solid #e3e3e3;
-
   &__subtitle {
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
     color: #009b4d;
   }
-
-  &__title {
+  tip__decoration &__title {
     margin: 0;
     margin-top: 17px;
     font-weight: 700;

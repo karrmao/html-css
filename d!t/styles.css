@@ -426,25 +426,9 @@
   border-radius: 2px;
 }
 
-@media screen and (min-width: 1400px) {
-  .hide_desktop {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1399px) {
-  .hide_mobile {
-    display: none;
-  }
-}
 .article:last-child {
   display: block;
   margin-top: 20px;
-}
-@media screen and (min-width: 1400px) {
-  .article:last-child {
-    margin-top: 0px;
-  }
 }
 
 .about {
@@ -452,24 +436,12 @@
   width: 100%;
   background: #f4f5f7;
 }
-@media screen and (min-width: 1400px) {
-  .about {
-    display: flex;
-    justify-content: space-between;
-    padding: 77px 130px 76px 130px;
-  }
-}
 
 .article__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
   margin: 0;
-}
-@media screen and (min-width: 1400px) {
-  .article__title {
-    width: 555px;
-  }
 }
 .article__text {
   font-size: 22px;
@@ -482,26 +454,8 @@
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 1400px) {
-  .customers {
-    width: 1140px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 106px;
-    flex-direction: row;
-  }
-}
 .customers__row {
   display: flex;
-}
-@media screen and (min-width: 1400px) {
-  .customers__row {
-    flex: 1;
-    justify-content: space-around;
-  }
 }
 .customers__item {
   height: 94px;
@@ -512,11 +466,6 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-}
-@media screen and (min-width: 1400px) {
-  .customers__item {
-    border: none;
-  }
 }
 .customers__item:last-child {
   border-right: none;
@@ -629,7 +578,7 @@
   line-height: 34px;
   color: #009b4d;
 }
-.tip__title {
+tip__decoration .tip__title {
   margin: 0;
   margin-top: 17px;
   font-weight: 700;
@@ -695,12 +644,6 @@
     margin-right: 125px;
   }
 }
-@media screen and (min-width: 1400px) {
-  .order__illustration {
-    margin: 269px;
-    margin-right: 121px;
-  }
-}
 .order__title {
   font-weight: 700;
   font-size: 40px;
@@ -713,11 +656,6 @@
   line-height: 34px;
   margin-top: 0;
   margin-top: 18px;
-}
-@media screen and (min-width: 1400px) {
-  .order__form {
-    display: flex;
-  }
 }
 .order__email {
   margin-top: 0px;

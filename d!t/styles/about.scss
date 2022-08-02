@@ -2,7 +2,8 @@
   display: block;
   margin-top: 20px;
 
-  @include for-large-up {
+  // @media screen and (min-width: $lg) {
+  @mixin for-large-up {
     margin-top: 0px;
   }
 }
@@ -12,7 +13,8 @@
   width: 100%;
   background: #f4f5f7;
 
-  @include for-large-up {
+  @mixin for-large-up {
+    //@media screen and (min-width: $lg) {
     display: flex;
     justify-content: space-between;
     padding: 77px 130px 76px 130px;
@@ -26,7 +28,8 @@
     line-height: 32px;
     margin: 0;
 
-    @include for-large-up {
+    @mixin for-large-up {
+      // @media screen and (min-width: $lg) {
       width: 555px;
     }
   }

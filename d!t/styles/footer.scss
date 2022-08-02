@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
 
-    @include for-large-up {
+    @media screen and (min-width: $lg) {
       width: 1140px;
       margin: 0 auto;
       height: 338px;
@@ -22,7 +22,7 @@
     margin-left: 15px;
     flex-direction: column;
 
-    @include for-large-up {
+    @media screen and (min-width: $lg) {
       height: 50px;
       flex-direction: row;
       width: 1140px;
@@ -38,7 +38,7 @@
     margin: 0;
     margin-top: 40px;
 
-    @include for-large-up {
+    @media screen and (min-width: $lg) {
       margin: 0;
     }
   }
@@ -51,13 +51,13 @@
     margin-top: 26px;
     color: rgba(43, 41, 45, 0.6);
 
-    @include for-large-up {
+    @media screen and (min-width: $lg) {
       display: block;
     }
   }
 
   .logo {
-    @include for-large-down {
+    @media screen and (max-width: ($lg - 1)) {
       display: none;
     }
   }
@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: column;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     flex-direction: row;
     margin-top: 60px;
     margin-left: auto;
@@ -78,7 +78,7 @@
   &__column {
     margin-top: 30px;
 
-    @include for-large-up {
+    @media screen and (min-width: $lg) {
       margin-top: 0;
       margin-right: 29px;
     }
@@ -112,7 +112,7 @@
   display: flex;
   justify-content: center;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     margin: 0;
     margin-top: 25px;
     justify-content: start;
@@ -128,7 +128,7 @@
   font-size: 14px;
   margin-top: 30px;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     line-height: 50px;
     margin-top: 0;
   }
@@ -144,7 +144,7 @@
   margin-top: 30px;
   margin-bottom: 23px;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     margin-left: auto;
   }
 
@@ -166,7 +166,7 @@
   flex-direction: column;
   align-items: center;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     display: none;
   }
 

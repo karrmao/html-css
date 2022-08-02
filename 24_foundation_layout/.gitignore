@@ -16,3 +16,5 @@ index.css
 index.css.map
 tips.css
 tips.css.map
+.DS_Store
+.gitignore

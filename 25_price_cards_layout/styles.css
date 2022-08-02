@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -14,25 +10,25 @@ html {
   background-color: #141b1c;
 }
 
-.card {
+.price-card {
+  position: relative;
+  overflow: hidden;
   height: 770px;
   width: 380px;
   background-color: #334247;
   text-align: center;
   color: #ffffff;
 }
-.card:nth-child(2) {
-  margin: 0 18px;
-}
-.card__tarif-plan {
+.price-card__title {
   font-size: 35px;
-  margin-top: 33px;
+  line-height: 43px;
+  font-weight: 700;
 }
-.card__website {
-  font-size: 25px;
-  line-height: 30.48px;
+.price-card__subtitle {
+  font-size: 20px;
+  line-height: 24px;
 }
-.card__price {
+.price-card__price {
   line-height: 105px;
   font-weight: 700;
   font-size: 55px;
@@ -40,18 +36,24 @@ html {
   background-color: #5bb189;
   color: #ffffff;
 }
-.card__desciption {
+.price-card__desciption {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   margin: 40px auto;
   width: 327.49px;
 }
-.card__card__list:nth-child(odd) {
+.price-card__card__list:nth-child(odd) {
   background-color: #ffffff;
 }
-.card__item {
+.price-card__item {
   line-height: 50px;
+}
+
+.new-card {
+  background-color: red;
+  width: 700px;
+  height: 700px;
 }
 
 /*# sourceMappingURL=styles.css.map */

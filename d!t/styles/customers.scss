@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
 
-  @include for-large-up {
+  //@media screen and (min-width: $lg) {
+  @mixin for-large-up {
     width: 1140px;
     margin: auto;
     display: flex;
@@ -16,7 +17,8 @@
   &__row {
     display: flex;
 
-    @include for-large-up {
+    @mixin for-large-up {
+      //@media screen and (min-width: $lg) {
       flex: 1;
       justify-content: space-around;
     }
@@ -32,7 +34,8 @@
     align-items: center;
     flex: 1;
 
-    @include for-large-up {
+    @mixin for-large-up {
+      //@media screen and (min-width: $lg) {
       border: none;
     }
   }

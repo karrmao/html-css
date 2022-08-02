@@ -10,12 +10,14 @@
 }
 
 .hide_desktop {
-  @include for-large-up {
+  @mixin for-large-up {
+    // @media screen and (min-width: $lg) {
     display: none;
   }
 }
 
-@include for-large-down {
+//@media screen and (max-width: ($lg - 1)) {
+@mixin for-large-down {
   .hide_mobile {
     display: none;
   }

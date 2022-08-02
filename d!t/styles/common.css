@@ -1,0 +1,22 @@
+/* line 1, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/common.scss */
+.actions-button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px; }
+
+@media screen and (min-width: 400px) {
+  /* line 13, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/common.scss */
+  .hide_desktop {
+    display: none; } }
+
+@media screen and (max-width: 399px) {
+  /* line 19, /Users/user/Documents/grom_study/html_css/24_foundation_layout/styles/common.scss */
+  .hide_mobile {
+    display: none; } }
+
+/*# sourceMappingURL=common.css.map */

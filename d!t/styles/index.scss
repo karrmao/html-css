@@ -24,7 +24,7 @@ html {
   width: 100%;
   overflow-x: hidden;
 
-  @include for-large-up {
+  @media screen and (min-width: $lg) {
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
