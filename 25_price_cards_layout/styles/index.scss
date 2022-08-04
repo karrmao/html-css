@@ -1,70 +1,19 @@
-// * {
-//   box-sizing: border-box;
-// }
+@import 'variables.scss';
+@import 'price-card.scss';
+
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-family: 'Montserrat', sans-serif;
+  color: $base-text-color-white;
 }
+
 .container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #141b1c;
-}
-
-.price-card {
-  position: relative;
-  overflow: hidden;
-  height: 770px;
-  width: 380px;
-  background-color: #334247;
-  text-align: center;
-  color: #ffffff;
-
-  // &:nth-child(2) {
-  //   margin: 0 18px;
-  // }
-
-  &__title {
-    font-size: 35px;
-    line-height: 43px;
-    font-weight: 700;
-  }
-
-  &__subtitle {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  &__price {
-    line-height: 105px;
-    font-weight: 700;
-    font-size: 55px;
-    text-align: center;
-    background-color: #5bb189;
-    color: #ffffff;
-  }
-
-  &__desciption {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    margin: 40px auto;
-    width: 327.49px;
-  }
-  &__card__list {
-    &:nth-child(odd) {
-      background-color: #ffffff;
-    }
-  }
-
-  &__item {
-    line-height: 50px;
-  }
-}
-
-.new-card {
-  background-color: red;
-  width: 700px;
-  height: 700px;
+  background-color: $container-bg-color-black;
 }
